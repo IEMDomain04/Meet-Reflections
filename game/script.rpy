@@ -11,7 +11,7 @@ define goro = Character("Goro")
 
 label start:
 
-    # Welcome Scene 
+    # Welcome Scene
     #"Welcome to Meet Reflections," 
     #"This is more than just a Visual Novel—it's a glimpse into the creator's soul."
     #"Every scene you see, every person you meet, reflects a part of the journey."
@@ -25,5 +25,14 @@ label start:
     "The Story starts in the Room."
 
     em "Hello, I'm \"Man\" a Computer Science Student!"
+
+    "This is Man, our main Character in this story."
+
+    "Man usually watches anime in his leasure time. Sometimes, 
+    when the character is cool, he tends to adapt his character"
+
+    scene bg livingroom
+    with fade
+    "Choose what Man will do today."
 
     return
